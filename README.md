@@ -126,6 +126,42 @@ pip install -e . # 源码安装
 运行效果如图：  
 ![](./lagent2.png)   
 
+#### 使用 Lagent 运行 InternLM2-Chat-7B 模型为内核的智能体   
+
+打开 lagent 路径：
+
+```bash
+cd /root/demo/lagent
+```
+
+在 terminal 中输入指令，构造软链接快捷访问方式：
+
+```bash
+ln -s /root/share/new_models/Shanghai_AI_Laboratory/internlm2-chat-7b /root/models/internlm2-chat-7b
+```
+
+打开 `lagent` 路径下 `examples/internlm2_agent_web_demo_hf.py` 文件，并修改对应位置 (71行左右) 代码：  
+```bash
+# 其他代码...
+value='/root/models/internlm2-chat-7b'
+# 其他代码...
+```
+
+输入运行命令 - **点开 6006 链接后，大约需要 5 分钟完成模型加载：**
+
+```bash
+streamlit run /root/demo/lagent/examples/internlm2_agent_web_demo_hf.py --server.address 127.0.0.1 --server.port 6006
+```
+
+待程序运行的同时，对本地端口环境配置本地 `PowerShell` 。  
+最终保持在如下效果即可：  
+![](./lagent4.png)  
+
+```
+请解方程 2*X=1580 之中 X 的结果
+```
+
+![](./lagent5.png)  
 
 
 
