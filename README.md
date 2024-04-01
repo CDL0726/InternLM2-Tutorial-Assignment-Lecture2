@@ -182,4 +182,9 @@ streamlit run /root/demo/lagent/examples/internlm2_agent_web_demo_hf.py --server
 - 熟悉 `huggingface` 下载功能，使用 `huggingface_hub` python 包，下载 `InternLM2-Chat-7B` 的 `config.json` 文件到本地（需截图下载过程）
 - 完成 `浦语·灵笔2` 的 `图文创作` 及 `视觉问答` 部署（需截图）
 - 完成 `Lagent` 工具调用 `数据分析` Demo 部署（需截图）
+- Dennis 作业`Lagent`工具调用 `数据分析Demo` 截图
+```
+请解方程 2*X=1580 之中 X 的结果
+```
 
+![](./lagent5.png)  
