@@ -57,15 +57,19 @@ conda activate demo
 python /root/demo/cli_demo.py
 ```
 
-InternLM2-chat-1.8B 模型对话效果：   
+##### InternLM2-chat-1.8B 模型对话效果：   
 ![](./storytelling.png)   
 
+#### 下载运行 Chat-八戒 Demo
 
-猪猪chat-InternLM2 模型对话效果：   
-![](./storytelling2.png)   
-
-
-
+在 `Web IDE` 中执行 `bajie_download.py`：
+```
+python /root/Tutorial/helloworld/bajie_download.py
+```
+执行下列`Streamlit run` 命令：
+```
+streamlit run /root/Tutorial/helloworld/bajie_chat.py --server.address 127.0.0.1 --server.port 6006
+```
 
 #### windows PowerShell 端口环境配置
 对端口环境配置本地 `PowerShell`
@@ -75,6 +79,10 @@ InternLM2-chat-1.8B 模型对话效果：
 ssh -CNg -L 6006:127.0.0.1:6006 root@ssh.intern-ai.org.cn -p 40491
 # 复制密码
 ```
+
+##### 猪猪chat-InternLM2 模型对话效果：   
+![](./storytelling2.png)   
+
 
 ### 第2节课 作业
 # **Homework - Demo**
