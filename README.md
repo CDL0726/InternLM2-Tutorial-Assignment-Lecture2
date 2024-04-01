@@ -123,7 +123,10 @@ cd /root/demo/lagent
 git checkout 581d9fb8987a5d9b72bb9ebd37a95efd47d479ac
 pip install -e . # 源码安装
 ```
-运行效果如图：
+运行效果如图：  
+![](./lagent2.png)   
+
+
 
 
 
