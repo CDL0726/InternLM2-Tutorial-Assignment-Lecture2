@@ -77,11 +77,21 @@ streamlit run /root/Tutorial/helloworld/bajie_chat.py --server.address 127.0.0.1
 # 从本地使用 ssh 连接 studio 端口
 # 将下方端口号 38374 替换成自己的端口号 40491
 ssh -CNg -L 6006:127.0.0.1:6006 root@ssh.intern-ai.org.cn -p 40491
+```
+```
 # 复制密码
 ```
 
 ##### 猪猪chat-InternLM2 模型对话效果：   
 ![](./storytelling2.png)   
+
+### 智能体构建 
+使用 `Lagent` 运行 `InternLM2-Chat-7B` 模型为内核的智能体  
+
+#### Lagent 相关知识  
+Lagent 是一个轻量级、开源的基于大语言模型的智能体（agent）框架，支持用户快速地将一个大语言模型转变为多种类型的智能体，并提供了一些典型工具为大语言模型赋能。它的整个框架图如下:   
+
+
 
 
 ## 第2节课 作业
