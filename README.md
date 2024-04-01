@@ -5,6 +5,32 @@
 
 ### 第2节课 笔记
 
+#### 环境配置, 过入开发机后，执行下列命令：   
+```
+studio-conda -o internlm-base -t demo
+# 与 studio-conda 等效的配置方案
+# conda create -n demo python==3.10 -y
+# conda activate demo
+# conda install pytorch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 pytorch-cuda=11.7 -c pytorch -c nvidia
+```
+
+配置完成后，进入到新创建的 conda 环境之中：  
+```
+conda activate demo
+```
+  
+
+####  环境包安装，执行下列命令：
+```
+pip install huggingface-hub==0.17.3
+pip install transformers==4.34 
+pip install psutil==5.9.8
+pip install accelerate==0.24.1
+pip install streamlit==1.32.2 
+pip install matplotlib==3.8.3 
+pip install modelscope==1.9.5
+pip install sentencepiece==0.1.99
+```
 #### 模型下载
 按路径创建文件夹，
 ```
