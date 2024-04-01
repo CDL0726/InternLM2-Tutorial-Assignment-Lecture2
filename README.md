@@ -84,10 +84,8 @@ ssh -CNg -L 6006:127.0.0.1:6006 root@ssh.intern-ai.org.cn -p 40491
 ![](./storytelling2.png)   
 
 
-### 第2节课 作业
-# **Homework - Demo**
-
-**提交方式：在 `CSDN` 、`知乎` 、`Github` 等平台上传作业后，将链接贴至 [飞书作业板](https://aicarrier.feishu.cn/wiki/TqjawZsoqiiRXEkRpcScmKAAn8d?table=tblNCUy9PeGmgd9I&view=vewQagjCL1) 即可。**
+## 第2节课 作业
+## **Homework - Demo**
 
 **基础作业 (结营必做)**
 
