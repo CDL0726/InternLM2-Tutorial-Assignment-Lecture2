@@ -1,7 +1,7 @@
 # InternLM2-Tutorial-Assignment-Lecture2
 ## Lecture 2
 ## 第2节课 【轻松玩转书生·浦语大模型趣味 Demo】
-[视频](https://www.bilibili.com/video/BV1AH4y1H78d/)   2024.3.31  书生·浦语角色扮演小组长【那路】 
+[视频](https://www.bilibili.com/video/BV1AH4y1H78d/)  [文档](https://github.com/InternLM/Tutorial/blob/camp2/helloworld/hello_world.md) 2024.3.31  书生·浦语角色扮演小组长【那路】 
 
 ### 第2节课 笔记
 
@@ -77,5 +77,21 @@ ssh -CNg -L 6006:127.0.0.1:6006 root@ssh.intern-ai.org.cn -p 40491
 ```
 
 ### 第2节课 作业
+# **Homework - Demo**
 
+**提交方式：在 `CSDN` 、`知乎` 、`Github` 等平台上传作业后，将链接贴至 [飞书作业板](https://aicarrier.feishu.cn/wiki/TqjawZsoqiiRXEkRpcScmKAAn8d?table=tblNCUy9PeGmgd9I&view=vewQagjCL1) 即可。**
+
+**基础作业 (结营必做)**
+
+- 使用 `InternLM2-Chat-1.8B` 模型生成 300 字的小故事（需截图）
+
+InternLM2-chat-1.8B 模型对话效果：   
+![](./storytelling.png) 
+
+
+**进阶作业 (优秀学员必做)**
+
+- 熟悉 `huggingface` 下载功能，使用 `huggingface_hub` python 包，下载 `InternLM2-Chat-7B` 的 `config.json` 文件到本地（需截图下载过程）
+- 完成 `浦语·灵笔2` 的 `图文创作` 及 `视觉问答` 部署（需截图）
+- 完成 `Lagent` 工具调用 `数据分析` Demo 部署（需截图）
 
