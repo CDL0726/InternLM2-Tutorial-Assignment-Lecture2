@@ -93,7 +93,7 @@ ssh -CNg -L 6006:127.0.0.1:6006 root@ssh.intern-ai.org.cn -p 40491
 
 - 使用 `InternLM2-Chat-1.8B` 模型生成 300 字的小故事（需截图）
 
-InternLM2-chat-1.8B 模型对话效果：   
+- Dennis 作业截图： InternLM2-chat-1.8B 模型对话效果：   
 ![](./storytelling.png) 
 
 
