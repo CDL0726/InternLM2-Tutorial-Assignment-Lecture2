@@ -57,6 +57,10 @@ conda activate demo
 python /root/demo/cli_demo.py
 ```
 
+InternLM2-chat-1.8B 模型对话效果：   
+![](./storytelling.png)   
+
+
 猪猪chat-InternLM2 模型对话效果：   
 ![](./storytelling2.png)   
 
