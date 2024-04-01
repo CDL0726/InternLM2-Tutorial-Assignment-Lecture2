@@ -31,7 +31,7 @@ pip install matplotlib==3.8.3
 pip install modelscope==1.9.5
 pip install sentencepiece==0.1.99
 ```
-#### 模型下载
+#### 模型下载及Cli_demo 运行效果
 按路径创建文件夹，
 ```
 mkdir -p /root/demo
