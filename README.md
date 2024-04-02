@@ -183,11 +183,11 @@ streamlit run /root/demo/lagent/examples/internlm2_agent_web_demo_hf.py --server
   
 - 完成 `浦语·灵笔2` 的 `图文创作` 及 `视觉问答` 部署（需截图）
   - **Dennis 作业截图：`浦语·灵笔2` 的图文创作和视觉问答**
-    ![](./Composer2.png)
-    ![](./Composer3.png)
+    ![](./XComposer2.png)
+    ![](./XComposer3.png)
     
 - 完成 `Lagent` 工具调用 `数据分析` Demo 部署（需截图）
-  - **Dennis 作业`Lagent`工具调用 `数据分析Demo` 截图**
+  - **Dennis 作业截图: `Lagent`工具调用 数据分析Demo**
 ```
 请解方程 2*X=1580 之中 X 的结果
 ```
